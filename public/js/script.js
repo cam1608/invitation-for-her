@@ -1,8 +1,8 @@
 const answers_no = {
     english: [
         "No",
-        "Are you sure?",
-        "Are you really sure??",
+        "Esti sigura?",
+        "Esti foarte sigura?",
         "Are you really realy sure???",
         "Think again?",
         "Don't believe in second chances?",
@@ -53,7 +53,7 @@ const answers_no = {
 };
 
 answers_yes = {
-    "english": "Yes",
+    "english": "Da!",
     "french": "Oui",
     "Thailand": "เย่ คืนดีกันแล้วน้า"
 }
@@ -148,6 +148,6 @@ function changeLanguage() {
     } else if (language === "thai") {
         successMessage.textContent = "ฮูเร่ คืนดีกันแล้วน้า :3";
     } else {
-        successMessage.textContent = "Yepppie, see you sooonnn :3";
+        successMessage.textContent = "Abia astept, beba mea!";
     }
 }
